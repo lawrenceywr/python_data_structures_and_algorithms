@@ -8,17 +8,26 @@
 ## 链接
 视频教程已经发布在网易云课堂和 csdn 学院，内容一致，推荐使用网易云课堂。
 
-[网易云课堂: Python数据结构与算法教程](http://study.163.com/course/introduction.htm?courseId=1005526003) 视频教程
+- [网易云课堂: Python数据结构与算法教程](http://study.163.com/course/introduction.htm?courseId=1005526003)
+- [csdn 学院：Python数据结构与算法教程](https://edu.csdn.net/course/detail/8332)
 
-[csdn 学院：Python数据结构与算法教程](https://edu.csdn.net/course/detail/8332)
+电子书地址：
 
-[网上阅读《Python 算法与数据结构教程 》](http://ningning.today/python_data_structures_and_algorithms/)
+- [网上阅读《Python 算法与数据结构教程 》](http://pegasuswang.github.io/python_data_structures_and_algorithms/)
+- [github 链接](https://github.com/PegasusWang/python_data_structures_and_algorithms)
+- [readthedoc 电子书下载](http://python-data-structures-and-algorithms.readthedocs.io/zh/latest/)
+- [《开源一个 Python 算法和数据结构中文教程[视频]》](https://zhuanlan.zhihu.com/p/36038003)  视频讲解示例
 
-[github 链接](https://github.com/PegasusWang/python_data_structures_and_algorithms)
+leetcode 实战图解教程(推荐)：
 
-[readthedoc 电子书下载](http://python-data-structures-and-algorithms.readthedocs.io/zh/latest/)
+如果您有一定的基础，只是想快速针对面试刷题，也可以直接参考笔者针对《剑指offer》和 leetcode 经典题目的 Python 刷题图解实战。
 
-[《开源一个 Python 算法和数据结构中文教程[视频]》](https://zhuanlan.zhihu.com/p/36038003)  视频讲解示例
+- [图解Python数据结构与算法-实战篇- leetcode经典题目实战](https://study.163.com/course/courseMain.htm?courseId=1212203808&share=2&shareId=400000000496051)
+
+笔者的其他课程：
+
+- [玩转Vim 从放弃到爱不释手](https://www.imooc.com/learn/1129)
+- [Python工程师面试宝典](https://coding.imooc.com/class/318.html)
 
 ## 痛点
 - 讲 Python 数据结构和算法的资料很少，中文资料更少
@@ -27,7 +36,7 @@
 - 网上很多视频教程不够循序渐进，不成系统
 
 ## 作者简介
-曾就职于[知乎](https://www.zhihu.com/people/pegasus-wang/activities)，任后端工程师，多年 Python 开发经验。
+曾就职于[知乎](https://www.zhihu.com/people/pegasus-wang/activities)，现腾讯视频后端工程师，多年 Python/Go 开发经验。
 
 知乎专栏：
 
@@ -100,23 +109,22 @@ Python 抽象程度比较高， 我们能用更少的代码来实现功能，同
 - 无需太多数学基础，仅在算法时间复杂度分析的时候会用到一些简单数学知识。对于学习基础算法，逻辑思维可能更重要一些
 
 ## 参考教材和链接
-这里我参考过三本书，均可以网购纸质版或者网络上搜索电子版，建议大家先大致阅读一本教材掌握基本原理：
+这里我参考过三本书，均可以网购纸质版或者网络上搜索电子版，建议大家先大致阅读一本教材掌握基本原理，本教程重点在于 Pythonic 代码实现：
 
 [《算法图解》](https://book.douban.com/subject/26979890/): 图解的形式很适合新手，示例使用的是 python。推荐基础较少的同学看这本书入门
 
 [《Data Structures and Algorithms in Python》]( https://book.douban.com/subject/10607365/): 适合对 Python
 和算法比较熟悉的同学，或者是有其他语言编程经验的同学。本书是英文版，缺点是书中错误真的很多，代码有些无法运行而且不够 Pythonic。该书 [勘误](http://bcs.wiley.com/he-bcs/Books?action=resource&bcsId=9003&itemId=0470618299&resourceId=35653)
 
-[《算法导论》第三版]( https://book.douban.com/subject/20432061/): 喜欢数学证明和板砖书的同学可以参考，有很多高级主题。使用伪代码
+[《算法导论》第三版]( https://book.douban.com/subject/20432061/): 喜欢数学证明和板砖书的同学可以参考，有很多高级主题。使用伪代码可以很快翻译成 Python
 
 ## 算法可视化
 
-学习算法的过程中有时候会比较抽象，这里给大家推荐一些可视化的网站，方便更直观地理解：
+学习算法的过程中有时候会比较抽象，这里给大家推荐一些可视化的网站，方便更直观地理解各种算法和数据结构的执行步骤：
 
-https://github.com/algorithm-visualizer/algorithm-visualizer
-
-https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
-
+- https://github.com/algorithm-visualizer/algorithm-visualizer
+- https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+- https://runestone.academy/runestone/books/published/pythonds/index.html#
 
 ## 讲课形式
 
@@ -156,7 +164,9 @@ https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 ## 如何获取每章代码
 
 注意每一章目录里都有 py 文件，在电子书里看不到。clone 下本代码仓库找到对应目录里的 python 文件即是每章涉及到的代码。
-由于代码实现千差万别，本书代码实现具有一定的个人风格，不代表最佳实现，仅供参考。
+由于代码实现千差万别，本书代码实现具有一定的个人风格，不代表最佳实现，仅供参考，笔者尽量使用 python2/3 兼容代码。
+目前已经新增《剑指offer》大部分经典题目的 Python 解法，每道题目附带leetcode 地址，大家可以自己尝试解决提交。
+本项目遵守 MIT 协议，本项目下的所有代码您可以任意学习修改和使用， 但是直接引用代码请加上本项目 github 地址。
 
 
 ## 如何学习
@@ -301,9 +311,9 @@ def test():
 如果读者关于代码、视频、讲义有任何疑问，欢迎一起讨论
 请注意以下几点：
 
-- 优先在网易云课堂的讨论区提问，方便别的同学浏览。如果未购买视频，也可以直接在 github 里提出 issue，笔者有空会给大家解答和讨论。
-- 描述尽量具体，视频或者代码哪一部分有问题？请尽量把涉及章节和代码贴出来，方便定位问题。
+- 描述尽量具体，视频或者代码哪一部分有问题(可以具体到文档或者代码行数)？请尽量把涉及章节和代码贴出来，方便定位问题。
 - 如果涉及到代码，提问时请保持代码的格式
+- 如果直接提了代码bug，最好有相关测试用例展示失败 test case，方便复现问题
 
 
 ## 本电子书制作和写作方式
@@ -331,4 +341,4 @@ mkdocs gh-deploy    # 部署到自己的 github pages
 
 扫码加入课程：
 
-![扫码加入课程返现30%](https://camo.githubusercontent.com/a217604a83d60fdc610ba91e5c771664a4645a79/687474703a2f2f376b747574792e636f6d312e7a302e676c622e636c6f7564646e2e636f6d2f53637265656e25323053686f74253230323031382d30362d3032253230617425323032302e33372e34362e706e67)
+![扫码加入课程](./163_course.png)
